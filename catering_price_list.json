@@ -1,0 +1,125 @@
+{
+  "restaurant": {
+    "name": "Nawabi Hyderabad House",
+    "tagline": "Biryani Place",
+    "cuisine": "Indian Cuisine"
+  },
+  "catering_price_list": {
+    "category": "Biryani & Pulavs",
+    "tray_sizes": ["H", "M", "L"],
+    "payment_type": "CARD",
+    "currency": "USD",
+    "items": [
+      {
+        "name": "Veg Dum Biryani",
+        "tray_size": "H/M/L",
+        "prices": { "H": 65, "M": 100, "L": 130 }
+      },
+      {
+        "name": "All Paneer Biryanis & Paneer Pulavs",
+        "tray_size": "H/M/L",
+        "prices": { "H": 70, "M": 100, "L": 150 }
+      },
+      {
+        "name": "Kofta Biryani & Pulav",
+        "tray_size": "H/M/L",
+        "prices": { "H": 70, "M": 100, "L": 150 }
+      },
+      {
+        "name": "Gutti Vankay Biryani & Pulav",
+        "tray_size": "H/M/L",
+        "prices": { "H": 80, "M": 110, "L": 160 }
+      },
+      {
+        "name": "Veg Kheema Biryani & Pulav",
+        "tray_size": "H/M/L",
+        "prices": { "H": 90, "M": 130, "L": 180 }
+      },
+      {
+        "name": "Egg Biryani & Pulav",
+        "tray_size": "H/M/L",
+        "prices": { "H": 70, "M": 100, "L": 150 }
+      },
+      {
+        "name": "Chicken Dum Biryani",
+        "tray_size": "H/M/L",
+        "prices": { "H": 80, "M": 110, "L": 160 }
+      },
+      {
+        "name": "Goat Dum Biryani",
+        "tray_size": "H/M/L",
+        "prices": { "H": 95, "M": 155, "L": 180 }
+      },
+      {
+        "name": "Nawabi Chicken Biryani",
+        "tray_size": "H/M/L",
+        "prices": { "H": 80, "M": 110, "L": 160 }
+      },
+      {
+        "name": "Nawabi Goat Biryani",
+        "tray_size": "H/M/L",
+        "prices": { "H": 95, "M": 155, "L": 180 }
+      },
+      {
+        "name": "Vijayawada Chicken Biryani & Pulav",
+        "tray_size": "H/M/L",
+        "prices": { "H": 80, "M": 110, "L": 160 }
+      },
+      {
+        "name": "Chicken Fry Biryani & Rajugari Kodi Pulav",
+        "tray_size": "H/M/L",
+        "prices": { "H": 85, "M": 135, "L": 160 }
+      },
+      {
+        "name": "Mix Biryanis & Pulavs Ulavacharu, Gongura, Avakai",
+        "tray_size": "H/M/L",
+        "prices": { "H": 85, "M": 135, "L": 160 }
+      },
+      {
+        "name": "Maskali, Monagadi Biryani & Pulavs",
+        "tray_size": "H/M/L",
+        "prices": { "H": 85, "M": 135, "L": 160 }
+      },
+      {
+        "name": "Lollipop Biryani & Pulavs",
+        "tray_size": "H/M/L",
+        "prices": { "H": 85, "M": 135, "L": 160 }
+      },
+      {
+        "name": "Chicken Tikka",
+        "tray_size": "H/M/L",
+        "prices": { "H": 85, "M": 135, "L": 160 }
+      },
+      {
+        "name": "Goat Dum Biryani",
+        "tray_size": "H/M/L",
+        "prices": { "H": 95, "M": 155, "L": 180 }
+      },
+      {
+        "name": "Goat Fry Biryani & Rajugari Goat Pulav",
+        "tray_size": "H/M/L",
+        "prices": { "H": 100, "M": 155, "L": 200 }
+      },
+      {
+        "name": "Mix Biryanis & Pulavs Ulavacharu, Gongura, Avakai",
+        "tray_size": "H/M/L",
+        "prices": { "H": 110, "M": 175, "L": 220 }
+      },
+      {
+        "name": "Nawabi Goat Biryani",
+        "tray_size": "H/M/L",
+        "prices": { "H": 95, "M": 155, "L": 180 }
+      },
+      {
+        "name": "Kheema Biryani & Pulav",
+        "tray_size": "H/M/L",
+        "prices": { "H": 110, "M": 175, "L": 220 }
+      },
+      {
+        "name": "Mutton Rara Biryani & Pulav",
+        "tray_size": "H/M/L",
+        "prices": { "H": 110, "M": 175, "L": 220 }
+      }
+    ]
+  }
+}
