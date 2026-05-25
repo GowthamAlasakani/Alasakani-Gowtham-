@@ -1,0 +1,114 @@
+{
+  "restaurant": {
+    "name": "Nawabi Hyderabad House",
+    "tagline": "Indian Cuisine - Biryani Place",
+    "documentType": "Catering Price List"
+  },
+  "traySizes": {
+    "H": "Half Tray",
+    "M": "Medium Tray",
+    "L": "Large Tray"
+  },
+  "priceFormat": "CARD: H/M/L (in USD)",
+  "categories": [
+    {
+      "category": "Biryani & Pulavs",
+      "items": [
+        { "name": "Veg Dum Biryani", "traySize": "H/M/L", "prices": { "H": 65, "M": 100, "L": 130 } },
+        { "name": "All Paneer Biryanis & Paneer Pulavs", "traySize": "H/M/L", "prices": { "H": 70, "M": 100, "L": 150 } },
+        { "name": "Kofta Biryani & Pulav", "traySize": "H/M/L", "prices": { "H": 70, "M": 100, "L": 150 } },
+        { "name": "Gutti Vankay Biryani & Pulav", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } },
+        { "name": "Veg Kheema Biryani & Pulav", "traySize": "H/M/L", "prices": { "H": 90, "M": 130, "L": 180 } },
+        { "name": "Egg Biryani & Pulav", "traySize": "H/M/L", "prices": { "H": 70, "M": 100, "L": 150 } },
+        { "name": "Chicken Dum Biryani", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } },
+        { "name": "Goat Dum Biryani", "traySize": "H/M/L", "prices": { "H": 95, "M": 155, "L": 180 } },
+        { "name": "Nawabi Chicken Biryani", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } },
+        { "name": "Nawabi Goat Biryani", "traySize": "H/M/L", "prices": { "H": 95, "M": 155, "L": 180 } },
+        { "name": "Vijayawada Chicken Biryani & Pulav", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } },
+        { "name": "Chicken Fry Biryani & Rajugari Kodi Pulav", "traySize": "H/M/L", "prices": { "H": 85, "M": 135, "L": 160 } },
+        { "name": "Mix Biryanis & Pulavs (Ulavacharu, Gongura, Avakai) - Veg/Chicken", "traySize": "H/M/L", "prices": { "H": 85, "M": 135, "L": 160 } },
+        { "name": "Maskali, Monagadi Biryani & Pulavs", "traySize": "H/M/L", "prices": { "H": 85, "M": 135, "L": 160 } },
+        { "name": "Lollipop Biryani & Pulavs", "traySize": "H/M/L", "prices": { "H": 85, "M": 135, "L": 160 } },
+        { "name": "Chicken Tikka Biryani", "traySize": "H/M/L", "prices": { "H": 85, "M": 135, "L": 160 } },
+        { "name": "Goat Fry Biryani & Rajugari Goat Pulav", "traySize": "H/M/L", "prices": { "H": 100, "M": 155, "L": 200 } },
+        { "name": "Mix Biryanis & Pulavs (Ulavacharu, Gongura, Avakai) - Goat/Mutton", "traySize": "H/M/L", "prices": { "H": 110, "M": 175, "L": 220 } },
+        { "name": "Kheema Biryani & Pulav", "traySize": "H/M/L", "prices": { "H": 110, "M": 175, "L": 220 } },
+        { "name": "Mutton Rara Biryani & Pulav", "traySize": "H/M/L", "prices": { "H": 110, "M": 175, "L": 220 } }
+      ]
+    },
+    {
+      "category": "Appetizers - Pakora & Bajji",
+      "items": [
+        { "name": "Veg Pakora / Spinach Pakora / Onion Pakora / Mixed Pakora", "traySize": "H/M/L", "prices": { "H": 50, "M": 70, "L": 100 } },
+        { "name": "Cut Mirchi", "traySize": "H/M/L", "prices": { "H": 50, "M": 70, "L": 100 } },
+        { "name": "Mirchi Bajji", "traySize": "Per Piece", "pricePerPiece": 1.5 },
+        { "name": "Onion Mirchi Bajji", "traySize": "Per Piece", "pricePerPiece": 1.75 },
+        { "name": "Veg Samosa", "traySize": "Per Piece", "pricePerPiece": 1.75 },
+        { "name": "Onion Samosa", "traySize": "Per Piece", "pricePerPiece": 1 }
+      ]
+    },
+    {
+      "category": "Vegetarian Appetizers",
+      "items": [
+        { "name": "All Gobi Appetizers", "traySize": "H/M/L", "prices": { "H": 70, "M": 100, "L": 140 } },
+        { "name": "All Baby Corn Appetizers", "traySize": "H/M/L", "prices": { "H": 70, "M": 100, "L": 140 } },
+        { "name": "All Paneer Appetizers", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } }
+      ]
+    },
+    {
+      "category": "Kebabs",
+      "items": [
+        { "name": "All Kebabs - Paneer & Chicken", "traySize": "Per Piece", "pricePerPiece": 2.5 },
+        { "name": "Lamb Chops", "traySize": "Per Piece", "pricePerPiece": 4.5 }
+      ]
+    },
+    {
+      "category": "Non-Vegetarian Appetizers",
+      "items": [
+        { "name": "Chicken Appetizers", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } },
+        { "name": "Fish Appetizers", "traySize": "H/M/L", "prices": { "H": 85, "M": 130, "L": 180 } },
+        { "name": "Goat Appetizers", "traySize": "H/M/L", "prices": { "H": 100, "M": 155, "L": 235 } },
+        { "name": "Shrimp Appetizers", "traySize": "H/M/L", "prices": { "H": 100, "M": 155, "L": 235 } },
+        { "name": "Chicken Lollipops", "traySize": "Per Piece", "pricePerPiece": 2.5 },
+        { "name": "Madurai Chicken Pakoda", "traySize": "H/M/L", "prices": { "H": 70, "M": 100, "L": 140 } },
+        { "name": "Vanjaram Fish / Tawa Fish", "traySize": "Per Piece", "pricePerPiece": 4 }
+      ]
+    },
+    {
+      "category": "Vegetarian Curries",
+      "items": [
+        { "name": "Veg Fry (Dondakay / Bhendi...)", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } },
+        { "name": "Veg Gravy (Mix Veg Kurma, Gutti Vankay Curry...)", "traySize": "H/M/L", "prices": { "H": 70, "M": 100, "L": 140 } },
+        { "name": "Paneer Curry", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } }
+      ]
+    },
+    {
+      "category": "Non-Vegetarian Curries",
+      "items": [
+        { "name": "CTM or BC or Shai Chicken", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } },
+        { "name": "Andhra Chicken, Karaikudi, Chetinnad...", "traySize": "H/M/L", "prices": { "H": 80, "M": 120, "L": 170 } },
+        { "name": "Chicken Vepudu or Semi Dry", "traySize": "H/M/L", "prices": { "H": 80, "M": 120, "L": 170 } },
+        { "name": "Goat Curry", "traySize": "H/M/L", "prices": { "H": 90, "M": 130, "L": 180 } },
+        { "name": "Kheema Curry & Mutton Rara", "traySize": "H/M/L", "prices": { "H": 110, "M": 175, "L": 220 } },
+        { "name": "Shrimp Curry", "traySize": "H/M/L", "prices": { "H": 110, "M": 175, "L": 220 } },
+        { "name": "Fish Curry Bone-less", "traySize": "H/M/L", "prices": { "H": 80, "M": 120, "L": 170 } }
+      ]
+    },
+    {
+      "category": "Fried Rice & Noodles",
+      "items": [
+        { "name": "Fried Rice - Veg", "traySize": "H/M/L", "prices": { "H": 70, "M": 100, "L": 140 } },
+        { "name": "Fried Rice - Chicken", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } },
+        { "name": "Fried Rice - Shrimp", "traySize": "H/M/L", "prices": { "H": 110, "M": 175, "L": 220 } },
+        { "name": "Noodles - Veg", "traySize": "H/M/L", "prices": { "H": 80, "M": 110, "L": 160 } },
+        { "name": "Noodles - Egg", "traySize": "H/M/L", "prices": { "H": 80, "M": 120, "L": 170 } },
+        { "name": "Noodles - Chicken", "traySize": "H/M/L", "prices": { "H": 90, "M": 130, "L": 180 } }
+      ]
+    }
+  ],
+  "notes": [
+    "Any Special Fried Rice is extra.",
+    "Special Fried Rice or Noodles: $10 extra for HT (Half Tray), $20 extra for MT (Medium Tray), $20 extra for FT (Full Tray).",
+    "All prices listed are CARD prices in USD."
+  ]
+}
