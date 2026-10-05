@@ -14,10 +14,15 @@ Customers scan a QR code, register (name + phone), and instantly get a coupon:
 ## Run
 ```
 npm install
-BASE_URL=https://your-domain.com STAFF_PIN=123456 BUSINESS_NAME="Your Store" BUSINESS_PHONE="555-123-4567" npm start
+BASE_URL=https://your-domain.com STAFF_PIN=123456 npm start
 ```
 `BASE_URL` must be the public address customers reach — it is what the QR code encodes.
 Optional: `PORT` (3000), `DATA_FILE` (`data/coupons.json`), `SESSION_SECRET`.
 If `STAFF_PIN` is not set, a random PIN is printed at startup.
+
+## Branding
+Defaults are Nawabi Hyderabad House, Lake Mary (name, tagline, address, phone, hours, website — see `lib/brand.js`).
+Override any with `BUSINESS_NAME`, `BUSINESS_TAGLINE`, `BUSINESS_ADDRESS`, `BUSINESS_PHONE`, `BUSINESS_WEBSITE`, `BUSINESS_HOURS`.
+**Logo:** save your logo as `public/logo.png` (or `.jpg`, `.svg`, `.webp`) and restart — it appears on the sign-up page and poster.
 
 Test: `npm test`. Deploy anywhere that runs Node 18+ (Render, Railway, Fly, a VPS); keep `data/` on a persistent disk.

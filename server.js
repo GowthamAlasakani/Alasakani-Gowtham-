@@ -4,6 +4,9 @@ const path = require('path');
 const QRCode = require('qrcode');
 const { Store } = require('./lib/store');
 const v = require('./lib/views');
+const fs = require('fs');
+const { brand, PUBLIC_DIR } = require('./lib/brand');
+const MIME = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml', '.webp': 'image/webp' };
 
 const PORT = process.env.PORT || 3000;
 const BASE_URL = (process.env.BASE_URL || `http://localhost:${PORT}`).replace(/\/$/, '');
@@ -37,6 +40,10 @@ async function handle(req, res) {
   const url = new URL(req.url, BASE_URL);
   const p = url.pathname; const m = req.method;
 
+  if (m === 'GET' && brand.logoFile && p === brand.logoUrl) {
+    res.writeHead(200, { 'Content-Type': MIME[path.extname(brand.logoFile)], 'Cache-Control': 'public, max-age=3600' });
+    return res.end(fs.readFileSync(path.join(PUBLIC_DIR, brand.logoFile)));
+  }
   if (m === 'GET' && p === '/') return send(res, 200, v.registerPage());
   if (m === 'GET' && p === '/qr.svg') { res.writeHead(200, { 'Content-Type': 'image/svg+xml' }); return res.end(await QRCode.toString(BASE_URL + '/', { ...qrOpts, type: 'svg' })); }
   if (m === 'GET' && p === '/qr.png') { res.writeHead(200, { 'Content-Type': 'image/png' }); return res.end(await QRCode.toBuffer(BASE_URL + '/', { ...qrOpts, width: 1000 })); }
