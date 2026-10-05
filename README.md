@@ -1,3 +1,23 @@
-# Alasakani-Gowtham
+# QR Coupon App
 
-Alasakani Gowtham 
+Customers scan a QR code, register (name + phone), and instantly get a coupon:
+**10% off a purchase of $30+**, usable **in-store or by phone order**.
+
+## How it works
+1. Print the poster at `/poster` (or download `/qr.png` / `/qr.svg`) and display it in the store.
+2. Customer scans → registers → gets a code like `SAVE-N3MNYW` (valid 30 days, one per phone number).
+3. At checkout (or on the phone) staff go to `/staff`, enter the code or the customer's phone number,
+   type the purchase total, pick *In-store* or *Phone order*, and the app checks the $30 minimum,
+   shows the discount, and marks the coupon used so it can't be reused.
+4. `/staff/export.csv` downloads all sign-ups (handy for marketing).
+
+## Run
+```
+npm install
+BASE_URL=https://your-domain.com STAFF_PIN=123456 BUSINESS_NAME="Your Store" BUSINESS_PHONE="555-123-4567" npm start
+```
+`BASE_URL` must be the public address customers reach — it is what the QR code encodes.
+Optional: `PORT` (3000), `DATA_FILE` (`data/coupons.json`), `SESSION_SECRET`.
+If `STAFF_PIN` is not set, a random PIN is printed at startup.
+
+Test: `npm test`. Deploy anywhere that runs Node 18+ (Render, Railway, Fly, a VPS); keep `data/` on a persistent disk.

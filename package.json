@@ -1,0 +1,9 @@
+{
+  "name": "qr-coupon-app",
+  "version": "1.0.0",
+  "description": "Scan a QR code, register, get 10% off a $30+ purchase (in-store or by phone).",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node --test" },
+  "dependencies": { "qrcode": "^1.5.4" },
+  "engines": { "node": ">=18" }
+}
