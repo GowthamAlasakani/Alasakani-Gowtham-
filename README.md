@@ -21,8 +21,8 @@ Optional: `PORT` (3000), `DATA_FILE` (`data/coupons.json`), `SESSION_SECRET`.
 If `STAFF_PIN` is not set, a random PIN is printed at startup.
 
 ## Branding
-Defaults are Nawabi Hyderabad House, Lake Mary (name, tagline, address, phone, hours, website — see `lib/brand.js`).
+Defaults are Nawabi Hyderabad House, Lake Mary (name, tagline, address, phone, hours, website — see `lib/brand.js`; address and phone match the HH Catering app). The logo is already in `public/logo.jpg`.
 Override any with `BUSINESS_NAME`, `BUSINESS_TAGLINE`, `BUSINESS_ADDRESS`, `BUSINESS_PHONE`, `BUSINESS_WEBSITE`, `BUSINESS_HOURS`.
-**Logo:** save your logo as `public/logo.png` (or `.jpg`, `.svg`, `.webp`) and restart — it appears on the sign-up page and poster.
+**Logo:** to change it, save your logo as `public/logo.png` (or `.jpg`, `.svg`, `.webp`) and restart — it appears on the sign-up page and poster.
 
 Test: `npm test`. Deploy anywhere that runs Node 18+ (Render, Railway, Fly, a VPS); keep `data/` on a persistent disk.
